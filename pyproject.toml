@@ -1,0 +1,12 @@
+[project]
+name = "social-emotional-agent"
+version = "0.1.0"
+description = "AI agent for adolescent social-emotional support and suicide risk screening"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=1.2.7",
+    "langchain-openai>=1.1.7",
+    "langgraph>=1.0.7",
+    "streamlit>=1.53.1",
+]
